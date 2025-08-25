@@ -123,3 +123,27 @@
   - type: Store
     balance:
       Telecrystal: 99999
+
+- type: entity
+  parent: [BaseItem, StorePresetUplinkCT]
+  id: BaseUplinkRadioCT
+  name: CT uplink
+  description: Suspiciously looking old radio...
+  suffix: Empty
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/communication.rsi
+    layers:
+    - state: old-radio
+  - type: Item
+    sprite: Objects/Devices/communication.rsi
+    heldPrefix: old-radio
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Store
+    balance:
+      Telecrystal: 40

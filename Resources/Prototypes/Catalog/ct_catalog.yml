@@ -1,0 +1,57 @@
+#SECONDARY
+
+- type: listing
+  id: UplinkPistolViper
+  name: uplink-pistol-viper-name
+  description: uplink-pistol-viper-desc
+  productEntity: WeaponPistolViper
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 2
+  cost:
+    Telecrystal: 3
+  categories:
+  - UplinkSecondaryCT
+
+#PRIMARY
+
+- type: listing
+  id: UplinkC20RBundle
+  name: uplink-c20r-bundle-name
+  description: uplink-c20r-bundle-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/SMGs/c20r.rsi, state: icon }
+  productEntity: WeaponSubMachineGunC20r
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 10
+  cost:
+    Telecrystal: 17
+  categories:
+  - UplinkPrimaryCT
+
+#GRENADES
+
+- type: listing
+  id: UplinkSmokeGrenade
+  name: uplink-smoke-grenade-name
+  description: uplink-smoke-grenade-desc
+  productEntity: SmokeGrenade
+  cost:
+    Telecrystal: 1
+  categories:
+  - UplinkGrenadesCT
+
+#EQUIPMENT
+
+- type: listing
+  id: UplinkClothingOuterVestWeb
+  name: uplink-clothing-outer-vest-web-name
+  description: uplink-clothing-outer-vest-web-desc
+  productEntity: ClothingOuterVestWeb
+  discountCategory: usualDiscounts
+  discountDownTo:
+    Telecrystal: 1
+  cost:
+    Telecrystal: 3
+  categories:
+  - UplinkEquipmentCT

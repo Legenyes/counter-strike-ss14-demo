@@ -6,18 +6,15 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 9000 #2.5 hrs
+      time: 0 #2.5 hrs
   startingGear: SecurityOfficerGear
   icon: "JobIconSecurityOfficer"
   supervisors: job-supervisors-hos
   canBeAntag: false
+  accessGroups:
+  - AllAccess
   access:
-  - Security
-  - Brig
-  - Maintenance
-  - Service
-  - External
-  - Cryogenics
+  - CentralCommand
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -30,8 +27,8 @@
     pocket1: WeaponPistolMk58
   storage:
     back:
-    - Flash
     - MagazinePistol
+    - BaseUplinkRadioCT
 
 - type: chameleonOutfit
   id: SecurityOfficerChameleonOutfit

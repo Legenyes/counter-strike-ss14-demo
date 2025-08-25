@@ -6,17 +6,18 @@
   startingGear: PassengerGear
   icon: "JobIconPassenger"
   supervisors: job-supervisors-everyone
+  accessGroups:
+  - AllAccess
   access:
-  - Maintenance
-
+  - CentralCommand
 - type: startingGear
   id: PassengerGear
   equipment:
     id: PassengerPDA
     ears: ClothingHeadsetGrey
-  #storage:
-    #back:
-    #- Stuff
+  storage:
+    back:
+    - BaseUplinkRadio60TC
 
 - type: chameleonOutfit
   id: PassengerChameleonOutfit

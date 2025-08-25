@@ -35,3 +35,19 @@
     - SpellbookEvents       #Summon Weapons, Summon Ghosts
     currencyWhitelist:
     - WizCoin
+
+- type: entity
+  id: StorePresetUplinkCT
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-uplinkCT
+    categories:
+    - UplinkPrimaryCT
+    - UplinkSecondaryCT
+    - UplinkEquipmentCT
+    - UplinkGrenadesCT
+    currencyWhitelist:
+    - Telecrystal
+    balance:
+      Telecrystal: 40

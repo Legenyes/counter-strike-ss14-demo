@@ -103,3 +103,25 @@
   id: DiscountedItems
   name: store-discounted-items
   priority: 200
+
+#CS-S14
+
+- type: storeCategory
+  id: UplinkPrimaryCT
+  name: store-category-primary-ct
+  priority: 0
+
+- type: storeCategory
+  id: UplinkSecondaryCT
+  name: store-category-secondary-ct
+  priority: 1
+
+- type: storeCategory
+  id: UplinkEquipmentCT
+  name: store-category-equipment-ct
+  priority: 2
+
+- type: storeCategory
+  id: UplinkGrenadesCT
+  name: store-category-grenades-ct
+  priority: 3

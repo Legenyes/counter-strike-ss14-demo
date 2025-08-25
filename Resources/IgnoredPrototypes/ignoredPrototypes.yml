@@ -6,3 +6,12 @@
 #
 # - /Prototypes/Guidebook
 # - /Prototypes/Catalog/uplink_catalog.yml
+  - /Prototypes/Species/moth.yml 
+  - /Prototypes/Species/arachnid.yml
+  - /Prototypes/Species/diona.yml 
+  - /Prototypes/Species/dwarf.yml 
+  - /Prototypes/Species/gingerbread.yml 
+  - /Prototypes/Species/reptilian.yml 
+  - /Prototypes/Species/skeleton.yml
+  - /Prototypes/Species/slime.yml  
+  - /Prototypes/Species/vox.yml 
