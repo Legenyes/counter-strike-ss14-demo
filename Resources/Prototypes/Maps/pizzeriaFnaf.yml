@@ -1,0 +1,18 @@
+- type: gameMap
+  id: FnafPizza
+  mapName: 'Freddy Fazbears Pizza'
+  mapPath: /Maps/pizzeriaFnaf.yml
+  minPlayers: 0
+  stations:
+    FNAF:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Freddy Fazbears Pizza'
+        - type: StationJobs
+          availableJobs:
+            Warden: [ 1, 1 ]
+            Detective: [ 1, 1 ]
+            SecurityCadet: [ 1, 1 ]
+            HeadOfSecurity: [ 1, 1 ]
+            Clown: [ -1, -1 ]

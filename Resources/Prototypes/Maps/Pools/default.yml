@@ -1,10 +1,10 @@
 - type: gameMapPool
   id: DefaultMapPool
   maps:
-  - Amber
+  - FnafPizza
   - Bagel
   - Box
-  - Elkridge
+  - Kishlak
   - Fland
   - Marathon
   - Oasis

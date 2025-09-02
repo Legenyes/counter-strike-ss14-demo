@@ -310,3 +310,128 @@
   - type: StaticPrice
     price: 1500
 
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterSuitFreddy
+  name: freddy suit
+  description: freddy fazbear
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Suits/freddy.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Suits/freddy.rsi
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:Container {}
+  - type: ProtectedFromStepTriggers
+    slots: WITHOUT_POCKET
+  - type: HideClothingLayerClothing # Goobstation
+    hiddenSlots:
+    - jumpsuit
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.2
+        Slash: 0.2
+        Piercing: 0.2
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterSuitBonnie
+  name: bonnie suit
+  description: bonnie
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Suits/bonnie.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Suits/bonnie.rsi
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:Container {}
+  - type: ProtectedFromStepTriggers
+    slots: WITHOUT_POCKET
+  - type: HideClothingLayerClothing # Goobstation
+    hiddenSlots:
+    - jumpsuit
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.2
+        Slash: 0.2
+        Piercing: 0.2
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterSuitSpringtrap
+  name: springtrap suit
+  description: springtrap
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Suits/springtrap.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Suits/springtrap.rsi
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:Container {}
+  - type: ProtectedFromStepTriggers
+    slots: WITHOUT_POCKET
+  - type: HideClothingLayerClothing # Goobstation
+    hiddenSlots:
+    - jumpsuit
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.1
+        Slash: 0.1
+        Piercing: 0.1
+        Heat: 0.5
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterSuitChicka
+  name: chicka suit
+  description: Let's eat!
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Suits/chicka.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Suits/chicka.rsi
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:Container {}
+  - type: ProtectedFromStepTriggers
+    slots: WITHOUT_POCKET
+  - type: HideClothingLayerClothing # Goobstation
+    hiddenSlots:
+    - jumpsuit
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.2
+        Slash: 0.2
+        Piercing: 0.2
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterSuitFoxy
+  name: foxt suit
+  description: Pirate
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Suits/foxy.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Suits/foxy.rsi
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:Container {}
+  - type: ProtectedFromStepTriggers
+    slots: WITHOUT_POCKET
+  - type: HideClothingLayerClothing # Goobstation
+    hiddenSlots:
+    - jumpsuit
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.2
+        Slash: 0.2
+        Piercing: 0.2

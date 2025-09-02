@@ -384,3 +384,68 @@
     - Hair
     - HeadTop
     - HeadSide
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatFreddyhead
+  name: freddy head
+  description: "freddy fazbear"
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Misc/freddyhead.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Misc/freddyhead.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBonniehead
+  name: bonnie head
+  description: "bonnie"
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Misc/bonniehead.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Misc/bonniehead.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSpringtraphead
+  name: springtrap head
+  description: "springtrap head"
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Misc/springtraphead.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Misc/springtraphead.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatChickaHead
+  name: chicka head
+  description: Let's eat head!
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Misc/chickahead.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Misc/chickahead.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatFoxyHead
+  name: foxy head
+  description: Pirate head
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Misc/foxyhead.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Misc/foxyhead.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker
