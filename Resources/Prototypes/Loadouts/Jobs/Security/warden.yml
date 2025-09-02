@@ -2,31 +2,31 @@
 - type: loadout
   id: WardenHead
   equipment:
-    head: ClothingHeadHatWarden
+    head: ClothingHeadHatChickaHead
 
 - type: loadout
   id: WardenBeret
   equipment:
-    head: ClothingHeadHatBeretWarden
+    head: ClothingHeadHatChickaHead
 
 # Jumpsuit
 - type: loadout
   id: WardenJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitWarden
+    jumpsuit: ClothingUniformJumpsuitColorBlack
 
 - type: loadout
   id: WardenJumpskirt
   equipment:
-    jumpsuit: ClothingUniformJumpskirtWarden
+    jumpsuit: ClothingUniformJumpsuitColorBlack
 
 # OuterClothing
 - type: loadout
   id: WardenCoat
   equipment:
-    outerClothing: ClothingOuterCoatWarden
+    outerClothing: ClothingOuterSuitChicka
 
 - type: loadout
   id: WardenArmoredWinterCoat
   equipment:
-    outerClothing: ClothingOuterWinterWarden
+    outerClothing: ClothingOuterSuitChicka

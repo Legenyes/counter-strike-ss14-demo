@@ -2,9 +2,31 @@
 - type: loadout
   id: RedJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitColorRed
+    jumpsuit: ClothingUniformJumpsuitColorBlack
 
 - type: loadout
   id: RedJumpskirt
   equipment:
-    jumpsuit: ClothingUniformJumpskirtColorRed
+    jumpsuit: ClothingUniformJumpsuitColorBlack
+
+# Head
+- type: loadout
+  id: HeadofSecurityHead
+  equipment:
+    head: ClothingHeadHatBonniehead
+
+- type: loadout
+  id: HeadofSecurityBeret
+  equipment:
+    head: ClothingHeadHatBonniehead
+
+# OuterClothing
+- type: loadout
+  id: HeadofSecurityCoat
+  equipment:
+    outerClothing: ClothingOuterSuitBonnie
+
+- type: loadout
+  id: HeadofSecurityWinterCoat
+  equipment:
+    outerClothing: ClothingOuterSuitBonnie

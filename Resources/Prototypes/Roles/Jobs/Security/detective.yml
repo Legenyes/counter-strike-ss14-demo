@@ -6,11 +6,13 @@
   requirements:
   - !type:RoleTimeRequirement
     role: JobSecurityOfficer
-    time: 18000 #5 hrs
+    time: 0 #5 hrs
   startingGear: DetectiveGear
   icon: "JobIconDetective"
   supervisors: job-supervisors-hos
   canBeAntag: false
+  accessGroups:
+  - AllAccess
   access:
   - Security
   - Brig
@@ -19,29 +21,17 @@
   - Detective
   - Cryogenics
   - External
-  special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
+  - CentralCommand
 
 - type: startingGear
   id: DetectiveGear
   equipment:
-    eyes: ClothingEyesGlassesSecurity
     id: DetectivePDA
-    ears: ClothingHeadsetSecurity
-    belt: ClothingBeltHolsterFilled
   storage:
     back:
-    - Flash
-    - ForensicPad
-    - ForensicScanner
 
 - type: chameleonOutfit
   id: DetectiveChameleonOutfit
   job: Detective
-  hasMindShield: true
+  hasMindShield: false
   equipment:
-    head: ClothingHeadHatFedoraBrown
-    mask: ClothingMaskGasSecurity
-    neck: ClothingNeckTieDet
-    gloves: ClothingHandsGlovesForensic

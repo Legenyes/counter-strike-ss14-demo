@@ -6,82 +6,63 @@
     requirement:
       !type:RoleTimeRequirement
       role: JobHeadOfSecurity
-      time: 72000 #20 hrs
+      time: 100000 #20 hrs
 
 # Jumpsuit
 - type: loadout
   id: HeadofSecurityJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHoS
+    jumpsuit: ClothingUniformJumpsuitColorBlack
   groupBy: "jumpsuit"
 
 - type: loadout
   id: HeadofSecurityJumpskirt
   equipment:
-    jumpsuit: ClothingUniformJumpskirtHoS
+    jumpsuit: ClothingUniformJumpsuitColorBlack
   groupBy: "jumpskirt"
 
 - type: loadout
   id: HeadofSecurityTurtleneck
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHoSAlt
+    jumpsuit: ClothingUniformJumpsuitColorBlack
   groupBy: "jumpsuit"
 
 - type: loadout
   id: HeadofSecurityTurtleneckSkirt
   equipment:
-    jumpsuit: ClothingUniformJumpskirtHoSAlt
+    jumpsuit: ClothingUniformJumpsuitColorBlack
   groupBy: "jumpskirt"
 
 - type: loadout
   id: HeadofSecurityFormalSuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHosFormal
+    jumpsuit: ClothingUniformJumpsuitColorBlack
   groupBy: "jumpsuit"
 
 - type: loadout
   id: HeadofSecurityFormalSkirt
   equipment:
-    jumpsuit: ClothingUniformJumpskirtHosFormal
+    jumpsuit: ClothingUniformJumpsuitColorBlack
   groupBy: "jumpskirt"
 
 # Head
 - type: loadout
   id: HeadofSecurityHead
   equipment:
-    head: ClothingHeadHatHoshat
+    head: ClothingHeadHatFoxyHead
 
 - type: loadout
   id: HeadofSecurityBeret
   equipment:
-    head: ClothingHeadHatBeretHoS
-
-# Neck
-- type: loadout
-  id: HeadofSecurityCloak
-  equipment:
-    neck: ClothingNeckCloakHos
-
-- type: loadout
-  id: HeadofSecurityMantle
-  equipment:
-    neck: ClothingNeckMantleHOS
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterHoS
-
-- type: startingGear
-  id: HeadofSecurityMantle
-  equipment:
-    neck: ClothingNeckMantleHOS
+    head: ClothingHeadHatFoxyHead
 
 # OuterClothing
 - type: loadout
   id: HeadofSecurityCoat
   equipment:
-    outerClothing: ClothingOuterCoatHoSTrench
+    outerClothing: ClothingOuterSuitFoxy
 
 - type: loadout
   id: HeadofSecurityWinterCoat
   equipment:
-    outerClothing: ClothingOuterWinterHoS
+    outerClothing: ClothingOuterSuitFoxy
