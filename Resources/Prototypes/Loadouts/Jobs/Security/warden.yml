@@ -13,12 +13,12 @@
 - type: loadout
   id: WardenJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitColorBlack
+    jumpsuit: ClothingUniformJumpsuitWarden
 
 - type: loadout
   id: WardenJumpskirt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitColorBlack
+    jumpsuit: ClothingUniformJumpskirtWarden
 
 # OuterClothing
 - type: loadout

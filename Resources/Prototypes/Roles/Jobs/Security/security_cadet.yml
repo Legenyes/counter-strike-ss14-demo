@@ -6,6 +6,10 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 0 #10 hrs
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 0 #5 hrs
+      inverted: false # stop playing intern if you're good at security!
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
   supervisors: job-supervisors-security
@@ -16,21 +20,28 @@
   - Maintenance
   - Service
   - External
-  - Cryogenics  
-  accessGroups:
-  - AllAccess
-  access:
-  - CentralCommand
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: startingGear
   id: SecurityCadetGear
   equipment:
     id: SecurityCadetPDA
+    head: ClothingHeadHatBonniehead
   storage:
     back:
+    - Flash
 
 - type: chameleonOutfit
   id: SecurityCadetChameleonOutfit
   job: SecurityCadet
-  hasMindShield: false
+  hasMindShield: true
   equipment:
+    head: ClothingHeadHelmetBasic
+    eyes: ClothingEyesHudSecurity
+    mask: ClothingMaskGasSecurity
+    neck: ClothingNeckScarfStripedRed
+    belt: ClothingBeltSecurity
+    gloves: ClothingHandsGlovesColorBlack

@@ -11,8 +11,6 @@
   icon: "JobIconDetective"
   supervisors: job-supervisors-hos
   canBeAntag: false
-  accessGroups:
-  - AllAccess
   access:
   - Security
   - Brig
@@ -21,17 +19,25 @@
   - Detective
   - Cryogenics
   - External
-  - CentralCommand
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: startingGear
   id: DetectiveGear
   equipment:
+    head: ClothingHeadHatFreddyhead
     id: DetectivePDA
   storage:
     back:
+    - Flash
 
 - type: chameleonOutfit
   id: DetectiveChameleonOutfit
   job: Detective
-  hasMindShield: false
+  hasMindShield: true
   equipment:
+    head: ClothingHeadHatFedoraBrown
+    mask: ClothingMaskGasSecurity
+    neck: ClothingNeckTieDet
+    gloves: ClothingHandsGlovesForensic

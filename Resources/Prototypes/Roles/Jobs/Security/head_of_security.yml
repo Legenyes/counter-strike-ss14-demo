@@ -32,8 +32,9 @@
   - External
   - Detective
   - Cryogenics
-  accessGroups:
-  - AllAccess
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
@@ -42,11 +43,15 @@
   id: HoSGear
   equipment:
     id: HoSPDA
+    head: ClothingHeadHatFoxyHead
   storage:
     back:
+    - Flash
 
 - type: chameleonOutfit
   id: HeadOfSecurityChameleonOutfit
   job: HeadOfSecurity
-  hasMindShield: false
+  hasMindShield: true
   equipment:
+    mask: ClothingMaskGasSecurity
+    neck: ClothingNeckCloakHos

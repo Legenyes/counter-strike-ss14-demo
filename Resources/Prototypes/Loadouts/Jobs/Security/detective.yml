@@ -9,26 +9,32 @@
   equipment:
     head: ClothingHeadHatFreddyHead
 
+# Neck
+- type: loadout
+  id: DetectiveTie
+  equipment:
+    neck: ClothingNeckTieDet
+
 # Jumpsuit
 - type: loadout
   id: DetectiveJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitColorBlack
+    jumpsuit: ClothingUniformJumpsuitDetectiveGrey
 
 - type: loadout
   id: DetectiveJumpskirt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitColorBlack
+    jumpsuit: ClothingUniformJumpsuitDetectiveGrey
 
 - type: loadout
   id: NoirJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitColorBlack
+    jumpsuit: ClothingUniformJumpsuitDetectiveGrey
 
 - type: loadout
   id: NoirJumpskirt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitColorBlack
+    jumpsuit: ClothingUniformJumpsuitDetectiveGrey
 
 # OuterClothing
 - type: loadout

@@ -325,9 +325,6 @@
       toggleable-clothing: !type:Container {}
   - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
-  - type: HideClothingLayerClothing # Goobstation
-    hiddenSlots:
-    - jumpsuit
   - type: Armor
     modifiers:
       coefficients:
@@ -350,9 +347,6 @@
       toggleable-clothing: !type:Container {}
   - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
-  - type: HideClothingLayerClothing # Goobstation
-    hiddenSlots:
-    - jumpsuit
   - type: Armor
     modifiers:
       coefficients:
@@ -375,9 +369,6 @@
       toggleable-clothing: !type:Container {}
   - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
-  - type: HideClothingLayerClothing # Goobstation
-    hiddenSlots:
-    - jumpsuit
   - type: Armor
     modifiers:
       coefficients:
@@ -401,9 +392,6 @@
       toggleable-clothing: !type:Container {}
   - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
-  - type: HideClothingLayerClothing # Goobstation
-    hiddenSlots:
-    - jumpsuit
   - type: Armor
     modifiers:
       coefficients:
@@ -426,9 +414,6 @@
       toggleable-clothing: !type:Container {}
   - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
-  - type: HideClothingLayerClothing # Goobstation
-    hiddenSlots:
-    - jumpsuit
   - type: Armor
     modifiers:
       coefficients:
