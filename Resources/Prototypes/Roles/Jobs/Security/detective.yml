@@ -11,14 +11,10 @@
   icon: "JobIconDetective"
   supervisors: job-supervisors-hos
   canBeAntag: false
+  accessGroups:
+  - AllAccess
   access:
-  - Security
-  - Brig
-  - Maintenance
-  - Service
-  - Detective
-  - Cryogenics
-  - External
+  - CentralCommand
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -28,9 +24,7 @@
   equipment:
     head: ClothingHeadHatFreddyhead
     id: DetectivePDA
-  storage:
-    back:
-    - Flash
+    outerClothing: ClothingOuterSuitFreddy
 
 - type: chameleonOutfit
   id: DetectiveChameleonOutfit

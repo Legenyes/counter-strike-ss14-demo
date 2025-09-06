@@ -22,13 +22,7 @@
 - type: startingGear
   id: SecurityOfficerGear
   equipment:
-    eyes: ClothingEyesGlassesSecurity
     ears: ClothingHeadsetSecurity
-    pocket1: WeaponPistolMk58
-  storage:
-    back:
-    - MagazinePistol
-    - BaseUplinkRadioCT
 
 - type: chameleonOutfit
   id: SecurityOfficerChameleonOutfit

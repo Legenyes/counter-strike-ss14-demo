@@ -1,32 +1,6 @@
-# Head
-- type: loadout
-  id: WardenHead
-  equipment:
-    head: ClothingHeadHatChickaHead
-
-- type: loadout
-  id: WardenBeret
-  equipment:
-    head: ClothingHeadHatChickaHead
-
 # Jumpsuit
 - type: loadout
   id: WardenJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitWarden
-
-- type: loadout
-  id: WardenJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtWarden
-
-# OuterClothing
-- type: loadout
-  id: WardenCoat
-  equipment:
-    outerClothing: ClothingOuterSuitChicka
-
-- type: loadout
-  id: WardenArmoredWinterCoat
-  equipment:
-    outerClothing: ClothingOuterSuitChicka
+    jumpsuit: ClothingUniformJumpsuitChaplain
+  groupBy: "jumpsuit"

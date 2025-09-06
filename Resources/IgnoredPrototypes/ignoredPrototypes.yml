@@ -15,3 +15,11 @@
   - /Prototypes/Species/skeleton.yml
   - /Prototypes/Species/slime.yml  
   - /Prototypes/Species/vox.yml 
+  - /Prototypes/Maps/centcomm.yml 
+  - /Prototypes/Maps/salvage.yml 
+  - /Prototypes/Shuttles/shuttle_incoming_event.yml
+  - /Prototypes/Procedural/dungeon_presets.yml
+  - /Prototypes/Procedural/dungeon_configs.yml
+  - /Prototypes/Procedural/dungeon_room_packs.yml
+  - /Prototypes/Procedural/Magnet
+  - /Prototypes/Procedural/Themes

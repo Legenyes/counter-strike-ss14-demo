@@ -14,13 +14,10 @@
   icon: "JobIconSecurityCadet"
   supervisors: job-supervisors-security
   canBeAntag: false
+  accessGroups:
+  - AllAccess
   access:
-  - Security
-  - Brig
-  - Maintenance
-  - Service
-  - External
-  - Cryogenics
+  - CentralCommand
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -30,9 +27,7 @@
   equipment:
     id: SecurityCadetPDA
     head: ClothingHeadHatBonniehead
-  storage:
-    back:
-    - Flash
+    outerClothing: ClothingOuterSuitBonnie
 
 - type: chameleonOutfit
   id: SecurityCadetChameleonOutfit
@@ -40,8 +35,3 @@
   hasMindShield: true
   equipment:
     head: ClothingHeadHelmetBasic
-    eyes: ClothingEyesHudSecurity
-    mask: ClothingMaskGasSecurity
-    neck: ClothingNeckScarfStripedRed
-    belt: ClothingBeltSecurity
-    gloves: ClothingHandsGlovesColorBlack

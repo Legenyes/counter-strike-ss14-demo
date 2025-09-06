@@ -342,69 +342,33 @@
 - type: roleLoadout
   id: JobHeadOfSecurity
   groups:
-  - HeadofSecurityHead
-  - HeadofSecurityNeck
   - HeadofSecurityJumpsuit
-  - SecurityBackpack
-  - SecurityBelt
-  - HeadofSecurityOuterClothing
   - SecurityShoes
-  - SurvivalSecurity
-  - Trinkets
-  - SecurityStar
-  - GroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
   id: JobWarden
   groups:
-  - WardenHead
   - WardenJumpsuit
-  - SecurityBackpack
-  - SecurityBelt
-  - WardenOuterClothing
   - SecurityShoes
-  - SurvivalSecurity
-  - Trinkets
-  - SecurityStar
-  - GroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
   id: JobSecurityOfficer
   groups:
-  - SecurityHead
   - SecurityJumpsuit
-  - SecurityBackpack
-  - SecurityOuterClothing
   - SecurityShoes
   - SecurityPDA
-  - SecurityBelt
-  - SurvivalSecurity
-  - Trinkets
-  - SecurityStar
-  - GroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
   id: JobDetective
   groups:
-  - DetectiveHead
-  - DetectiveNeck
   - DetectiveJumpsuit
-  - SecurityBackpack
-  - DetectiveOuterClothing
   - SecurityShoes
-  - SurvivalSecurity
-  - Trinkets
-  - SecurityStar
-  - GroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
   id: JobSecurityCadet
   groups:
   - SecurityCadetJumpsuit
-  - SecurityBackpack
-  - SurvivalSecurity
-  - Trinkets
-  - GroupSpeciesBreathToolSecurity
+  - SecurityShoes
 
 # Medical
 - type: roleLoadout

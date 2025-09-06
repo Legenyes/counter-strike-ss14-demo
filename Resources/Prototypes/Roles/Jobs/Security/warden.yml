@@ -15,15 +15,10 @@
   icon: "JobIconWarden"
   supervisors: job-supervisors-hos
   canBeAntag: false
+  accessGroups:
+  - AllAccess
   access:
-  - Security
-  - Brig
-  - Armory
-  - Maintenance
-  - Service
-  - External
-  - Detective
-  - Cryogenics
+  - CentralCommand
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -31,11 +26,9 @@
 - type: startingGear
   id: WardenGear
   equipment:
-    head: ClothingHeadHatFoxyHead
+    head: ClothingHeadHatChickaHead
     id: WardenPDA
-  storage:
-    back:
-    - Flash
+    outerClothing: ClothingOuterSuitChicka
 
 - type: chameleonOutfit
   id: WardenChameleonOutfit
@@ -43,10 +36,3 @@
   hasMindShield: true
   equipment:
     head: ClothingHeadHatWarden
-    mask: ClothingMaskGasSecurity
-    outerClothing: ClothingOuterCoatWarden
-    jumpsuit: ClothingUniformJumpsuitWarden
-    neck: Dinkystar
-    belt: ClothingBeltSecurity
-    gloves: ClothingHandsGlovesCombat
-    shoes: ClothingShoesBootsJack

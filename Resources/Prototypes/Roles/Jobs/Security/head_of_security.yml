@@ -21,17 +21,10 @@
   icon: "JobIconHeadOfSecurity"
   supervisors: job-supervisors-captain
   canBeAntag: false
+  accessGroups:
+  - AllAccess
   access:
-  - HeadOfSecurity
-  - Command
-  - Brig
-  - Security
-  - Armory
-  - Maintenance
-  - Service
-  - External
-  - Detective
-  - Cryogenics
+  - CentralCommand
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -44,9 +37,7 @@
   equipment:
     id: HoSPDA
     head: ClothingHeadHatFoxyHead
-  storage:
-    back:
-    - Flash
+    outerClothing: ClothingOuterSuitFoxy
 
 - type: chameleonOutfit
   id: HeadOfSecurityChameleonOutfit
