@@ -1,0 +1,16 @@
+- type: gameMap
+  id: dedustdva
+  mapName: 'de_dust'
+  mapPath: /Maps/dusttwo.yml
+  minPlayers: 0
+  stations:
+   dedusttwo:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "dedust"
+        - type: StationJobs
+          availableJobs:
+            Passenger: [ -1, -1 ]
+            Musician: [-1, -1 ]
+
