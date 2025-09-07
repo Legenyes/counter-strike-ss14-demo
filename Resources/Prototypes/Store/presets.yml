@@ -45,8 +45,24 @@
     categories:
     - UplinkPrimaryCT
     - UplinkSecondaryCT
-    - UplinkEquipmentCT
-    - UplinkGrenadesCT
+    - UplinkEquipmentCS
+    - UplinkGrenadesCS
+    currencyWhitelist:
+    - Telecrystal
+    balance:
+      Telecrystal: 40
+
+- type: entity
+  id: StorePresetUplinkT
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-uplinkT
+    categories:
+    - UplinkPrimaryT
+    - UplinkSecondaryT
+    - UplinkEquipmentCS
+    - UplinkGrenadesCS
     currencyWhitelist:
     - Telecrystal
     balance:

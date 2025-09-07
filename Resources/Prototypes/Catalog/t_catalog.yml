@@ -1,0 +1,68 @@
+#SECONDARY
+
+- type: listing
+  id: UplinkTPistolViper
+  name: uplink-pistol-viper-name
+  description: uplink-pistol-viper-desc
+  productEntity: WeaponPistolViper
+  cost:
+    Telecrystal: 3
+  categories:
+  - UplinkSecondaryT
+
+#PRIMARY
+
+- type: listing
+  id: UplinkTAk47
+  name: Ak-47
+  description: .30 rifle
+  icon: { sprite: /Textures/Objects/counterstrike/Weapons/PrimaryT/ak47.rsi, state: icon }
+  productEntity: WeaponRifleAk47
+  cost:
+    Telecrystal: 17
+  categories:
+  - UplinkPrimaryT
+
+#GRENADES
+
+- type: listing
+  id: UplinkCSSmokeGrenade
+  name: uplink-smoke-grenade-name
+  description: uplink-smoke-grenade-desc
+  productEntity: SmokeGrenade
+  cost:
+    Telecrystal: 1
+  categories:
+  - UplinkGrenadesCS
+
+#EQUIPMENT
+
+- type: listing
+  id: UplinkCSlothingOuterVestWeb
+  name: uplink-clothing-outer-vest-web-name
+  description: uplink-clothing-outer-vest-web-desc
+  productEntity: ClothingOuterVestWeb
+  cost:
+    Telecrystal: 3
+  categories:
+  - UplinkEquipmentCS
+
+- type: listing
+  id: UplinkCSRifleAmmo
+  name: ammo for .20 rifle
+  description: ammo for m4 aug famas galil
+  productEntity: MagazineRifle
+  cost:
+    Telecrystal: 7
+  categories:
+  - UplinkEquipmentCS
+
+- type: listing
+  id: UplinkCSLightRifleAmmo
+  name: ammo for .30 rifle
+  description: ammo for ak47
+  productEntity: MagazineLightRifle
+  cost:
+    Telecrystal: 7
+  categories:
+  - UplinkEquipmentCS

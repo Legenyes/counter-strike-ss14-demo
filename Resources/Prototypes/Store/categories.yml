@@ -125,3 +125,23 @@
   id: UplinkGrenadesCT
   name: store-category-grenades-ct
   priority: 3
+
+- type: storeCategory
+  id: UplinkPrimaryT
+  name: store-category-primary-t
+  priority: 0
+
+- type: storeCategory
+  id: UplinkSecondaryT
+  name: store-category-secondary-t
+  priority: 1
+
+- type: storeCategory
+  id: UplinkEquipmentCS
+  name: store-category-equipment-cs
+  priority: 2
+
+- type: storeCategory
+  id: UplinkGrenadesCS
+  name: store-category-grenades-cs
+  priority: 3

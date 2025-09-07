@@ -17,7 +17,7 @@
     ears: ClothingHeadsetGrey
   storage:
     back:
-    - BaseUplinkRadio60TC
+    - BaseUplinkRadioT
 
 - type: chameleonOutfit
   id: PassengerChameleonOutfit
