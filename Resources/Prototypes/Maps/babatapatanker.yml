@@ -1,0 +1,16 @@
+- type: gameMap
+  id: babatapaTanker
+  mapName: 'de_dust'
+  mapPath: /Maps/babatapaTanker.yml
+  minPlayers: 0
+  stations:
+   babatapa:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "Tanker Baba Tapa Inc"
+        - type: StationJobs
+          availableJobs:
+            Mime: [ -1, -1 ]
+            Librarian: [-1, -1 ]
+
