@@ -5,46 +5,24 @@
   playTimeTracker: JobMime
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 14400 #4 hrs
+      time: 0 #4 hrs
   startingGear: MimeGear
   icon: "JobIconMime"
   supervisors: job-supervisors-hop
+  accessGroups:
+  - AllAccess
   access:
-  - Theatre
-  - Maintenance
-  special:
-  - !type:AddComponentSpecial
-    components:
-    - type: MimePowers
-      preventWriting: true
-    - type: FrenchAccent
+  - CentralCommand
+
 
 - type: startingGear
   id: MimeGear
   equipment:
-    gloves: ClothingHandsGlovesColorWhite
-    shoes: ClothingShoesColorWhite
+    shoes: ClothingShoesBootsCombatFilled
     id: MimePDA
-    pocket1: CrayonMime
+    pocket1: BaseUplinkRadioT
     ears: ClothingHeadsetService
-  storage:
-    back:
-    - RubberStampMime
-
-- type: entity
-  parent: BaseAction
-  id: ActionMimeInvisibleWall
-  name: Create Invisible Wall
-  description: Create an invisible wall in front of you, if placeable there.
-  components:
-  - type: Action
-    priority: -1
-    useDelay: 30
-    icon:
-      sprite: Structures/Walls/solid.rsi
-      state: full
-  - type: InstantAction
-    event: !type:InvisibleWallActionEvent
+    head: ClothingHeadHatUshanka
 
 - type: chameleonOutfit
   id: MimeChameleonOutfit

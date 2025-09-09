@@ -6,21 +6,20 @@
   startingGear: LibrarianGear
   icon: "JobIconLibrarian"
   supervisors: job-supervisors-hop
+  accessGroups:
+  - AllAccess
   access:
-  - Service
-  - Maintenance
+  - CentralCommand
 
 - type: startingGear
   id: LibrarianGear
   equipment:
-    shoes: ClothingShoesBootsLaceup
+    shoes: ClothingShoesBootsJackFilled
     id: LibrarianPDA
-    ears: ClothingHeadsetService
-    pocket1: d20Dice
-    pocket2: HandLabeler # for making named bestsellers
-  storage:
-    back:
-    - BookRandom
+    ears: ClothingHeadsetSecurity
+    pocket1: BaseUplinkRadioCT # for making named bestsellers
+    head: ClothingHeadHelmetBasic
+    belt: ClothingBeltMilitaryWebbing
 
 - type: chameleonOutfit
   id: LibrarianChameleonOutfit

@@ -2,19 +2,24 @@
 - type: loadout
   id: LibrarianJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitLibrarian
+    jumpsuit: ClothingUniformJumpsuitOperative
+
+# Head
+- type: loadout
+  id: LibrarianHelmet
+  equipment:
+    head: ClothingHeadHelmetBasic
+
+# Belt
 
 - type: loadout
-  id: LibrarianJumpskirt
+  id: LibrarianWebbing
   equipment:
-    jumpsuit: ClothingUniformJumpskirtLibrarian
+    belt: ClothingBeltMilitaryWebbing
 
+#Shoes
+  
 - type: loadout
-  id: CuratorJumpsuit
+  id: LibrarianBoots
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCurator
-
-- type: loadout
-  id: CuratorJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtCurator
+    shoes: ClothingShoesBootsCombatFilled

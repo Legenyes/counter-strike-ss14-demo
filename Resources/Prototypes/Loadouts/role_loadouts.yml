@@ -94,13 +94,10 @@
 - type: roleLoadout
   id: JobLibrarian
   groups:
-  - GroupTankHarness
   - LibrarianJumpsuit
-  - CommonBackpack
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
+  - LibrarianHelmet
+  - LibrarianWebbing
+  - LibrarianBoots
 
 - type: roleLoadout
   id: JobLawyer
