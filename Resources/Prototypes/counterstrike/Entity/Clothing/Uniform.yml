@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitDust
+  name: Dire's Israel Uniform
+  description: Advanced armored jumpsuit used by Dire in special operations.
+  components:
+  - type: Sprite
+    sprite: Objects/counterstrike/Clothing/Uniform/dust2.rsi
+  - type: Clothing
+    sprite: Objects/counterstrike/Clothing/Uniform/dust2.rsi

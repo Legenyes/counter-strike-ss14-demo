@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatDustHat
+  name: Israel's Army Hat
+  description: "obormoti syka"
+  components:
+  - type: Sprite
+    sprite: Objects/counterstrike/Clothing/Hats/dust2.rsi
+  - type: Clothing
+    sprite: Objects/counterstrike/Clothing/Hats/dust2.rsi

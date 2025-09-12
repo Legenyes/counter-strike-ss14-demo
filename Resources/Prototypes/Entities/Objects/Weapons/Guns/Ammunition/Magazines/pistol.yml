@@ -45,7 +45,7 @@
     whitelist:
       tags:
         - CartridgePistol
-    capacity: 16
+    capacity: 18
   - type: Item
     size: Small
   - type: ContainerContainer
@@ -78,7 +78,7 @@
     whitelist:
       tags:
         - CartridgePistol
-    capacity: 30
+    capacity: 50
   - type: Item
     size: Small
   - type: ContainerContainer

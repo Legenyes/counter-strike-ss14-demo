@@ -449,3 +449,16 @@
     sprite: Clothing/Head/Misc/foxyhead.rsi
   - type: IngestionBlocker
   - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGoldenFreddyHead
+  name: GOLDEN FREDDY
+  description: MISUVAYA
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Misc/goldenfreddy.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Misc/goldenfreddy.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker

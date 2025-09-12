@@ -21,7 +21,7 @@
     availableModes:
       - FullAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
+      path: /Audio/Weapons/counterstrike/guns/ak.ogg
   - type: GunWieldBonus
     minAngle: -1
     maxAngle: -1

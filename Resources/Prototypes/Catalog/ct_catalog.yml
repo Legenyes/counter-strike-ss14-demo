@@ -23,7 +23,29 @@
   categories:
   - UplinkPrimaryCT
 
+- type: listing
+  id: UplinkCTAUG
+  name: Steyr AUG
+  description: aug
+  icon: { sprite: /Textures/Objects/counterstrike/Weapons/PrimaryCT/aug.rsi, state: icon }
+  productEntity: WeaponRifleAug
+  cost:
+    Telecrystal: 20
+  categories:
+  - UplinkPrimaryCT
+
+- type: listing
+  id: UplinkCTP90
+  name: P90
+  description: ghez
+  icon: { sprite: /Textures/Objects/counterstrike/Weapons/PrimaryCT/p90.rsi, state: icon }
+  productEntity: WeaponRifleP90
+  cost:
+    Telecrystal: 15
+  categories:
+  - UplinkPrimaryCT
+
 #GRENADES
 #EQUIPMENT
 
-#он не отличается от каталога терров
+#grenades and equipment не отличается от каталога терров

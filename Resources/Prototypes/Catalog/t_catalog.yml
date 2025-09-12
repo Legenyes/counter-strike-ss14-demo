@@ -10,6 +10,16 @@
   categories:
   - UplinkSecondaryT
 
+- type: listing
+  id: UplinkTPistolTec9
+  name: TEC 9
+  description: TEC9
+  productEntity: WeaponPistolTec9
+  cost:
+    Telecrystal: 13
+  categories:
+  - UplinkSecondaryT
+
 #PRIMARY
 
 - type: listing
@@ -64,5 +74,25 @@
   productEntity: MagazineLightRifle
   cost:
     Telecrystal: 7
+  categories:
+  - UplinkEquipmentCS
+
+- type: listing
+  id: UplinkCSSMGAmmo
+  name: ammo for .35 smg
+  description: ammo for p90 etc
+  productEntity: MagazinePistolSubMachineGun
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkEquipmentCS
+
+- type: listing
+  id: UplinkCSHighPistolAmmo
+  name: ammo for .35 pistols and smg
+  description: ammo for tec9 etc
+  productEntity: MagazinePistolHighCapacity
+  cost:
+    Telecrystal: 10
   categories:
   - UplinkEquipmentCS

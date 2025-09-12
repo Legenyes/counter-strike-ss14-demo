@@ -420,3 +420,53 @@
         Blunt: 0.2
         Slash: 0.2
         Piercing: 0.2
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterSuitGoldenSlavik
+  name: GOLDEN SLAVIK
+  description: MISYUVAVA
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Suits/goldenslavik.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Suits/goldenslavik.rsi
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:Container {}
+  - type: ProtectedFromStepTriggers
+    slots: WITHOUT_POCKET
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.01
+        Slash: 0.01
+        Piercing: 0.01
+        Heat: 0.01
+        fire: 0.01
+        Cold: 0.01
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterSuitGoldenFreddy
+  name: GOLDEN FREDDY
+  description: MISYUVAVA
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Suits/goldenfreddy.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Suits/goldenfreddy.rsi
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:Container {}
+  - type: ProtectedFromStepTriggers
+    slots: WITHOUT_POCKET
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.01
+        Slash: 0.01
+        Piercing: 0.01
+        Heat: 0.01
+        fire: 0.01
+        Cold: 0.01

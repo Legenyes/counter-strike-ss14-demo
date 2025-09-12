@@ -173,16 +173,10 @@
   id: JobMime
   canCustomizeName: true
   groups:
-  - GroupTankHarness
   - MimeHead
-  - MimeMask
   - MimeJumpsuit
-  - MimeBackpack
-  - MimeOuterClothing
   - MimeBelt
-  - Glasses
-  - SurvivalMime
-  - Trinkets
+  - MimeBoots
 
 - type: roleLoadout
   id: JobMusician
