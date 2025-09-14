@@ -1,16 +1,27 @@
+# Head
+
+- type: loadout
+  id: MusicianHead
+  equipment:
+    head: ClothingHeadHatDustHat
+
 # Jumpsuit
+
 - type: loadout
   id: MusicianJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitMusician
+    jumpsuit: ClothingUniformJumpsuitDust
+
+# Belt
 
 - type: loadout
-  id: MusicianJumpskirt
+  id: MusicianBelt
   equipment:
-    jumpsuit: ClothingUniformJumpskirtMusician
+    belt: ClothingBeltSecurityWebbing
 
-# Outerclothing
+# Shoes
+
 - type: loadout
-  id: MusicianWintercoat
+  id: MusicianBoots
   equipment:
-    outerClothing: ClothingOuterWinterMusician
+    shoes: ClothingShoesBootsCombatFilled

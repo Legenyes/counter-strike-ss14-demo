@@ -73,7 +73,7 @@
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
-    fireRate: 13
+    fireRate: 11
     minAngle: 8
     maxAngle: 85
     angleIncrease: 10

@@ -8,3 +8,14 @@
     sprite: Objects/counterstrike/Clothing/Uniform/dust2.rsi
   - type: Clothing
     sprite: Objects/counterstrike/Clothing/Uniform/dust2.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitMojahed
+  name: Mojahed
+  description: allah akbar
+  components:
+  - type: Sprite
+    sprite: Objects/counterstrike/Clothing/Uniform/mojahed.rsi
+  - type: Clothing
+    sprite: Objects/counterstrike/Clothing/Uniform/mojahed.rsi

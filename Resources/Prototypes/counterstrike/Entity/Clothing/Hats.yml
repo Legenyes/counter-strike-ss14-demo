@@ -8,3 +8,14 @@
     sprite: Objects/counterstrike/Clothing/Hats/dust2.rsi
   - type: Clothing
     sprite: Objects/counterstrike/Clothing/Hats/dust2.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatKufiaHat
+  name: Kufia
+  description: "obormoti syka"
+  components:
+  - type: Sprite
+    sprite: Objects/counterstrike/Clothing/Hats/kufiamasked.rsi
+  - type: Clothing
+    sprite: Objects/counterstrike/Clothing/Hats/kufiamasked.rsi

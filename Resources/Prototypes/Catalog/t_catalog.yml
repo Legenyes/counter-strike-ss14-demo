@@ -33,6 +33,17 @@
   categories:
   - UplinkPrimaryT
 
+- type: listing
+  id: UplinkTMac10
+  name: Mac-10
+  description: .30 gun
+  icon: { sprite: /Textures/Objects/counterstrike/Weapons/PrimaryT/mac10.rsi, state: icon }
+  productEntity: WeaponRifleMac10
+  cost:
+    Telecrystal: 15
+  categories:
+  - UplinkPrimaryT
+
 #GRENADES
 
 - type: listing

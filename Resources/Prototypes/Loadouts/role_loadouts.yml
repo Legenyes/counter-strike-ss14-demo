@@ -40,18 +40,10 @@
 - type: roleLoadout
   id: JobPassenger
   groups:
-  - GroupTankHarness
+  - PassangerShoes
   - PassengerJumpsuit
-  - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
+  - PassengerHead
+  - PassangerBelt
 
 - type: roleLoadout
   id: JobBartender
@@ -181,15 +173,10 @@
 - type: roleLoadout
   id: JobMusician
   groups:
-  - GroupTankHarness
   - MusicianJumpsuit
-  - CommonBackpack
-  - MusicianOuterClothing
-  - Glasses
-  - Survival
-  - Trinkets
-  - Instruments
-  - GroupSpeciesBreathTool
+  - MusicianHead
+  - MusicianBelt
+  - MusicianBoots
 
 # Cargo
 - type: roleLoadout

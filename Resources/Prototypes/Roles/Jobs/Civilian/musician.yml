@@ -6,31 +6,18 @@
   startingGear: MusicianGear
   icon: "JobIconMusician"
   supervisors: job-supervisors-hire
+  accessGroups:
+  - AllAccess
   access:
-  - Maintenance # TODO Remove maint access for all gimmick jobs once access work is completed
-  - Theatre
-  special:
-  - !type:GiveItemOnHolidaySpecial
-    holiday: MikuDay
-    prototype: BoxPerformer
+  - CentralCommand
 
 - type: startingGear
   id: MusicianGear
   equipment:
     eyes: ClothingEyesGlassesSunglasses
-    shoes: ClothingShoesBootsLaceup
     id: MusicianPDA
     ears: ClothingHeadsetService
-  storage:
-    back:
-     - BaseUplinkRadioCT
-
-- type: chameleonOutfit
-  id: MusicianChameleonOutfit
-  job: Musician
-  equipment:
-    head: ClothingHeadHatTophat
-    mask: ClothingMaskBreath
-    neck: ClothingMultipleHeadphones
-    outerClothing: ClothingOuterWinterMusician
-    gloves: ClothingHandsGlovesColorBlack
+    pocket1: BaseUplinkRadioCT
+    shoes: ClothingShoesBootsCombatFilled
+    belt: ClothingBeltMilitaryWebbing
+    head: ClothingHeadHatDustHat

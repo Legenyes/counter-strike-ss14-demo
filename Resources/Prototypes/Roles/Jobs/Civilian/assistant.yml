@@ -10,22 +10,14 @@
   - AllAccess
   access:
   - CentralCommand
+
 - type: startingGear
   id: PassengerGear
   equipment:
     id: PassengerPDA
     ears: ClothingHeadsetGrey
-  storage:
-    back:
-    - BaseUplinkRadioT
-
-- type: chameleonOutfit
-  id: PassengerChameleonOutfit
-  job: Passenger
-  equipment:
-    head: ClothingHeadHatWelding
-    eyes: ClothingEyesGlassesCheapSunglasses
-    mask: ClothingMaskGas
-    neck: ClothingNeckMantle
-    outerClothing: ClothingOuterWinterCoat
-    gloves: ClothingHandsGlovesColorYellowBudget
+    pocket1: BaseUplinkRadioT
+    jumpsuit: ClothingUniformJumpsuitMojahed
+    belt: ClothingBeltSecurityWebbing
+    head: ClothingHeadHatKufiaHat
+    shoes: ClothingShoesBootsCombatFilled
