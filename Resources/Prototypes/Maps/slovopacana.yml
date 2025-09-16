@@ -1,0 +1,16 @@
+- type: gameMap
+  id: Slovopacana
+  mapName: 'SlovoPacana'
+  mapPath: /Maps/slovopacana.yml
+  minPlayers: 0
+  stations:
+   slovopacana:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "Hadi Tak Tash"
+        - type: StationJobs
+          availableJobs:
+            Lawyer: [ -1, -1 ]
+            Janitor: [-1, -1 ]
+

@@ -1,22 +1,12 @@
 #SECONDARY
 
 - type: listing
-  id: UplinkTPistolViper
-  name: uplink-pistol-viper-name
-  description: uplink-pistol-viper-desc
-  productEntity: WeaponPistolViper
-  cost:
-    Telecrystal: 3
-  categories:
-  - UplinkSecondaryT
-
-- type: listing
   id: UplinkTPistolTec9
   name: TEC 9
   description: TEC9
   productEntity: WeaponPistolTec9
   cost:
-    Telecrystal: 13
+    Telecrystal: 10
   categories:
   - UplinkSecondaryT
 
@@ -40,7 +30,7 @@
   icon: { sprite: /Textures/Objects/counterstrike/Weapons/PrimaryT/mac10.rsi, state: icon }
   productEntity: WeaponRifleMac10
   cost:
-    Telecrystal: 15
+    Telecrystal: 14
   categories:
   - UplinkPrimaryT
 
@@ -48,7 +38,7 @@
 
 - type: listing
   id: UplinkCSSmokeGrenade
-  name: uplink-smoke-grenade-name
+  name: SMOKE GRENADE
   description: uplink-smoke-grenade-desc
   productEntity: SmokeGrenade
   cost:
@@ -60,7 +50,7 @@
 
 - type: listing
   id: UplinkCSlothingOuterVestWeb
-  name: uplink-clothing-outer-vest-web-name
+  name: Fat Vest
   description: uplink-clothing-outer-vest-web-desc
   productEntity: ClothingOuterVestWeb
   cost:
@@ -74,7 +64,7 @@
   description: ammo for m4 aug famas galil
   productEntity: MagazineRifle
   cost:
-    Telecrystal: 7
+    Telecrystal: 10
   categories:
   - UplinkEquipmentCS
 
@@ -84,7 +74,7 @@
   description: ammo for ak47
   productEntity: MagazineLightRifle
   cost:
-    Telecrystal: 7
+    Telecrystal: 10
   categories:
   - UplinkEquipmentCS
 
@@ -100,10 +90,20 @@
 
 - type: listing
   id: UplinkCSHighPistolAmmo
-  name: ammo for .35 pistols and smg
+  name: ammo for tec9
   description: ammo for tec9 etc
   productEntity: MagazinePistolHighCapacity
   cost:
-    Telecrystal: 10
+    Telecrystal: 7
+  categories:
+  - UplinkEquipmentCS
+
+- type: listing
+  id: UplinkCSMagazinePistol
+  name: ammo for .35 pistols
+  description: ammo for usp etc
+  productEntity: MagazinePistolHighCapacity
+  cost:
+    Telecrystal: 7
   categories:
   - UplinkEquipmentCS

@@ -1,12 +1,12 @@
 #SECONDARY
 
 - type: listing
-  id: UplinkCTPistolViper
-  name: uplink-pistol-viper-name
-  description: uplink-pistol-viper-desc
-  productEntity: WeaponPistolViper
+  id: UplinkCTPistolUsp
+  name: USP-S
+  description: USP
+  productEntity: WeaponPistolUSP
   cost:
-    Telecrystal: 3
+    Telecrystal: 7
   categories:
   - UplinkSecondaryCT
 
@@ -14,12 +14,12 @@
 
 - type: listing
   id: UplinkCTM4
-  name: uplink-m4-bundle-name
+  name: M4
   description: m4
   icon: { sprite: /Textures/Objects/counterstrike/Weapons/PrimaryCT/m4.rsi, state: icon }
   productEntity: WeaponRifleM4
   cost:
-    Telecrystal: 17
+    Telecrystal: 19
   categories:
   - UplinkPrimaryCT
 
@@ -30,7 +30,7 @@
   icon: { sprite: /Textures/Objects/counterstrike/Weapons/PrimaryCT/aug.rsi, state: icon }
   productEntity: WeaponRifleAug
   cost:
-    Telecrystal: 20
+    Telecrystal: 21
   categories:
   - UplinkPrimaryCT
 
