@@ -1,0 +1,16 @@
+- type: gameMap
+  id: demirage
+  mapName: 'de_mirage'
+  mapPath: /Maps/mirage.yml
+  minPlayers: 0
+  stations:
+   demirage:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "demirage"
+        - type: StationJobs
+          availableJobs:
+            Passenger: [ -1, -1 ]
+            Musician: [-1, -1 ]
+

@@ -21,9 +21,9 @@
     maxAngle: 60
     angleIncrease: 5
     angleDecay: 30
-    selectedMode: FullAuto
+    selectedMode: SemiAuto
     availableModes:
-      - FullAuto
+      - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/counterstrike/guns/m4s.ogg
   - type: ItemSlots
