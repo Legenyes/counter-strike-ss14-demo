@@ -21,9 +21,9 @@
     maxAngle: 60
     angleIncrease: 8
     angleDecay: 30
-    selectedMode: FullAuto
+    selectedMode: SemiAuto
     availableModes:
-      - FullAuto
+      - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/counterstrike/guns/fiveseven.ogg
   - type: ItemSlots
@@ -37,6 +37,60 @@
         whitelist:
           tags:
             - MagazinePistolHighCapacity
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgePistol
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: StaticPrice
+    price: 1000
+
+- type: entity
+  name: glock-19
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolGlock
+  description: glock.
+  components:
+  - type: Sprite
+    sprite: Objects/counterstrike/Weapons/SecondaryT/glock.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Objects/counterstrike/Weapons/SecondaryT/glock.rsi
+  - type: Item
+    storedOffset: 0,-2
+  - type: Gun
+    fireRate: 5
+    minAngle: 5
+    maxAngle: 60
+    angleIncrease: 8
+    angleDecay: 30
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/counterstrike/guns/fiveseven.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePistol
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazinePistol
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber

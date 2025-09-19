@@ -10,6 +10,16 @@
   categories:
   - UplinkSecondaryCT
 
+- type: listing
+  id: UplinkCTPistolFiveseven
+  name: FiveSeven
+  description: buy it
+  productEntity: WeaponPistolFiveseven
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkSecondaryCT
+
 #PRIMARY
 
 - type: listing

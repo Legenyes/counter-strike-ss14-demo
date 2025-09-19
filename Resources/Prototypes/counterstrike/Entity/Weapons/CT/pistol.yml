@@ -51,3 +51,57 @@
       gun_chamber: !type:ContainerSlot
   - type: StaticPrice
     price: 1000
+
+- type: entity
+  name: FiveSeven
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolFiveseven
+  description: fiveseven.
+  components:
+  - type: Sprite
+    sprite: Objects/counterstrike/Weapons/SecondaryCT/fiveseven.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Objects/counterstrike/Weapons/SecondaryCT/fiveseven.rsi
+  - type: Item
+    storedOffset: 0,-2
+  - type: Gun
+    fireRate: 7
+    minAngle: 3
+    maxAngle: 60
+    angleIncrease: 5
+    angleDecay: 30
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/counterstrike/guns/fiveseven.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePistolHighCapacity
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazinePistolHighCapacity
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgePistol
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: StaticPrice
+    price: 1000

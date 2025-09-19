@@ -13,7 +13,7 @@
         map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
     fireRate: 6
-    minAngle: 7
+    minAngle: 8
     maxAngle: 70
     angleIncrease: 6
     angleDecay: 30
@@ -61,7 +61,7 @@
 
 - type: entity
   name: MAC-10
-  parent: [BaseWeaponRifle, BaseSecurityContraband]
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
   id: WeaponRifleMac10
   description: mac10 from csgo.
   components:
@@ -83,9 +83,6 @@
       - FullAuto
     soundGunshot:
       path: /Audio/Weapons/counterstrike/guns/mac.ogg
-  - type: GunWieldBonus
-    minAngle: -1
-    maxAngle: -1
   - type: Clothing
     sprite: Objects/counterstrike/Weapons/PrimaryT/mac10.rsi
   - type: ChamberMagazineAmmoProvider
@@ -110,6 +107,74 @@
         whitelist:
           tags:
             - CartridgeRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+
+- type: entity
+  name: SG553
+  parent: [BaseWeaponRifle, BaseSecurityContraband]
+  id: WeaponRifleSg553
+  description: sg553.
+  components:
+  - type: Sprite
+    sprite: Objects/counterstrike/Weapons/PrimaryT/sg553.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Gun
+    fireRate: 6
+    minAngle: 9
+    maxAngle: 72
+    angleIncrease: 6
+    angleDecay: 30
+    selectedMode: FullAuto
+    availableModes:
+      - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/counterstrike/guns/aug.ogg
+  - type: GunWieldBonus
+    minAngle: -5
+    maxAngle: -5
+  - type: Clothing
+    sprite: Objects/counterstrike/Weapons/PrimaryT/sg553.rsi
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineLightRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineLightRifle
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeLightRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeLightRifle
+  - type: SpeedModifiedOnWield
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: CursorOffsetRequiresWield
+  - type: EyeCursorOffset
+    maxOffset: 2
+    pvsIncrease: 0.2
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot

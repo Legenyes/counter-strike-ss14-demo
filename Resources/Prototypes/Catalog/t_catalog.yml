@@ -1,6 +1,16 @@
 #SECONDARY
 
 - type: listing
+  id: UplinkTPistolGlock
+  name: Glock-19
+  description: TEC9
+  productEntity: WeaponPistolGlock
+  cost:
+    Telecrystal: 5
+  categories:
+  - UplinkSecondaryT
+
+- type: listing
   id: UplinkTPistolTec9
   name: TEC 9
   description: TEC9
@@ -31,6 +41,17 @@
   productEntity: WeaponRifleMac10
   cost:
     Telecrystal: 14
+  categories:
+  - UplinkPrimaryT
+
+- type: listing
+  id: UplinkTSG553
+  name: SG553
+  description: .30 rifle with optical zoom.
+  icon: { sprite: /Textures/Objects/counterstrike/Weapons/PrimaryT/sg553.rsi, state: icon }
+  productEntity: WeaponRifleSg553
+  cost:
+    Telecrystal: 19
   categories:
   - UplinkPrimaryT
 
