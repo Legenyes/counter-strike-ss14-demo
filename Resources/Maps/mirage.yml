@@ -4,8 +4,8 @@ meta:
   engineVersion: 266.0.0
   forkId: ""
   forkVersion: ""
-  time: 09/17/2025 12:26:05
-  entityCount: 3121
+  time: 09/20/2025 12:48:12
+  entityCount: 3122
 maps:
 - 1
 grids:
@@ -33,6 +33,9 @@ entities:
     - type: Map
       mapPaused: True
     - type: GridTree
+    - type: Roof
+      data: {}
+    - type: SunShadow
     - type: Broadphase
     - type: OccluderTree
     - type: MapGrid
@@ -301,10 +304,7 @@ entities:
     - type: GridPathfinding
     - type: Physics
       bodyStatus: InAir
-      angularDamping: 0.05
-      linearDamping: 0.05
       fixedRotation: False
-      canCollide: False
       bodyType: Dynamic
     - type: Fixtures
       fixtures: {}
@@ -370,10 +370,23 @@ entities:
           decals:
             0: -4.11492,27.623001
     - type: MapLight
-      ambientLightColor: '#fad291'
+      ambientLightColor: '#ffbd7a'
     - type: Roof
       data: {}
+    - type: LightCycle
     - type: SunShadow
+    - type: SunShadowCycle
+      directions:
+      - direction: 0,3
+      - alpha: 0.5
+        direction: -3,-0.1
+        ratio: 0.25
+      - alpha: 0.8
+        direction: 0,-3
+        ratio: 0.5
+      - alpha: 0.5
+        direction: 3,-0.1
+        ratio: 0.75
     - type: MapAtmosphere
       space: False
       mixture:
@@ -2646,6 +2659,15 @@ entities:
     components:
     - type: Transform
       pos: 22.5,36.5
+      parent: 1
+    - type: GravityAffected
+      weightless: False
+- proto: CounterStrikeBomb
+  entities:
+  - uid: 3122
+    components:
+    - type: Transform
+      pos: 50.5,5.5
       parent: 1
     - type: GravityAffected
       weightless: False

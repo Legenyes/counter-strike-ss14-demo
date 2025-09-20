@@ -4,8 +4,8 @@ meta:
   engineVersion: 266.0.0
   forkId: ""
   forkVersion: ""
-  time: 09/07/2025 13:10:07
-  entityCount: 3323
+  time: 09/20/2025 12:46:10
+  entityCount: 3324
 maps:
 - 1
 grids:
@@ -397,11 +397,10 @@ entities:
             5: -18.881323,48.744453
             20: 13.107801,59.290718
     - type: MapLight
-      ambientLightColor: '#ffecad'
+      ambientLightColor: '#ffdc7a'
     - type: Roof
       data: {}
     - type: SunShadow
-    - type: SunShadowCycle
       directions:
       - direction: 0,3
       - alpha: 0.5
@@ -2243,6 +2242,15 @@ entities:
     components:
     - type: Transform
       pos: -9.5,31.5
+      parent: 1
+    - type: GravityAffected
+      weightless: False
+- proto: CounterStrikeBomb
+  entities:
+  - uid: 981
+    components:
+    - type: Transform
+      pos: -11.5,10.5
       parent: 1
     - type: GravityAffected
       weightless: False

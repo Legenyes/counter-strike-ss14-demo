@@ -174,8 +174,7 @@
     - /Audio/Ambience/ambiruin5.ogg
     - /Audio/Ambience/ambiruin6.ogg
     - /Audio/Ambience/ambiruin7.ogg
-    - /Audio/Ambience/voyage_neverending.ogg
-    - /Audio/Ambience/unanchored.ogg
+    - /Audio/Ambience/counterstrike/TFRmainAmbience.ogg
 
 - type: soundCollection
   id: AmbienceRuins

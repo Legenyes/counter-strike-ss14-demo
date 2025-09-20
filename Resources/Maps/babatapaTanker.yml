@@ -4,8 +4,8 @@ meta:
   engineVersion: 266.0.0
   forkId: ""
   forkVersion: ""
-  time: 09/09/2025 14:44:54
-  entityCount: 1365
+  time: 09/20/2025 12:46:50
+  entityCount: 1366
 maps:
 - 1
 grids:
@@ -43,18 +43,6 @@ entities:
     - type: Roof
       data: {}
     - type: SunShadow
-    - type: SunShadowCycle
-      directions:
-      - direction: 0,3
-      - alpha: 0.5
-        direction: -3,-0.1
-        ratio: 0.25
-      - alpha: 0.8
-        direction: 0,-3
-        ratio: 0.5
-      - alpha: 0.5
-        direction: 3,-0.1
-        ratio: 0.75
     - type: MapAtmosphere
       space: False
       mixture:
@@ -3188,6 +3176,13 @@ entities:
     components:
     - type: Transform
       pos: 1.5,-3.5
+      parent: 2
+- proto: CounterStrikeBomb
+  entities:
+  - uid: 1366
+    components:
+    - type: Transform
+      pos: 8.5,-27.5
       parent: 2
 - proto: CrateEngineering
   entities:
