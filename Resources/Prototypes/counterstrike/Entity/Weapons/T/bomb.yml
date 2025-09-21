@@ -22,7 +22,7 @@
       explosionType: Default
       totalIntensity: 40.0
       intensitySlope: 5
-      maxIntensity: 4
+      maxIntensity: 40
       canCreateVacuum: false
     - type: ExplodeOnTrigger
       keysIn:
