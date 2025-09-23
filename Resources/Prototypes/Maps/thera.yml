@@ -1,0 +1,16 @@
+- type: gameMap
+  id: deThera
+  mapName: 'de_thera'
+  mapPath: /Maps/Thera.yml
+  minPlayers: 0
+  stations:
+   deThera:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "deThera"
+        - type: StationJobs
+          availableJobs:
+            Reporter: [ -1, -1 ]
+            ServiceWorker: [-1, -1 ]
+
